@@ -1,0 +1,26 @@
+{
+"min" "-1024 -2048 0"
+"max" "832 64 192"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"min" "-1408 -2048 0"
+"max" "-128 380 192"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"min" "448 2048 0"
+"max" "1920 4000 192"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}
+{
+"min" "-512 2800 0"
+"max" "1920 4000 192"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}
+
+

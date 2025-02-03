@@ -1,0 +1,18 @@
+{
+"min" "-1801.2 1330.0 215.9"
+"max" "-3106.6 -593.9 -157.0"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}
+{
+"min" "619 1726 692"
+"max" "2096 747 -228"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"min" "834 440 364"
+"max" "2096 747 -228"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}

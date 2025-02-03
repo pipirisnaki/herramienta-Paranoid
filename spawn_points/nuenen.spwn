@@ -1,0 +1,12 @@
+{
+"min" "-2100 1440 -192"
+"max" "-640 3200 192"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"min" "-64 1152 -192"
+"max" "1344 2400 192"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}
