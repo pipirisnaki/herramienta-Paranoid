@@ -58,6 +58,7 @@ def generar_server_cfg(entidades, script_dir, text_area):
     # Crear la lista de mapas separados por espacios
     maplist_str = ' '.join(entidades)
     primer_mapa = maplist_str.split()[0]
+    rcon_password = 'password'
 
     # Definir el contenido fijo del server.cfg con el maplist personalizado
     server_cfg_content = (
@@ -71,7 +72,7 @@ def generar_server_cfg(entidades, script_dir, text_area):
         'set public 1\n'
         'setmaster master.q2servers.com satan.idsoftware.com q2master.planetquake.com\n'
         '//set password "mypass"\n'
-        'set rcon_password "mrinvicto"\n'
+        f'set rcon_password "{rcon_password}"\n'
         'set observer_password "sapo"\n'
         'sv maplist maplist.txt 0\n'
         'sv maplist start\n'
